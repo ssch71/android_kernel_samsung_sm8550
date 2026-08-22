@@ -101,6 +101,9 @@ CONFIG_USB_CONFIGFS_F_UAC1=y
 CONFIG_TMPFS_POSIX_ACL=y
 CONFIG_TMPFS_XATTR=y
 
+#b5q camara fix
+CONFIG_I2C_QCOM_CCI=y
+
 # Clang22 boot compatibility
 # Samsung's FIPS integrity pass corrupts vmlinux when RELR is enabled.
 # CFI_CLANG is disabled in the working Clang22 reference configuration.

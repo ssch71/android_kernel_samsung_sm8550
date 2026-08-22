@@ -18,7 +18,7 @@
 | `dm2q` | Galaxy S23+ | ✅ Supported |
 | `dm3q` | Galaxy S23 Ultra | ✅ Supported |
 | `q5q` | Galaxy Z Fold5 | ✅ Supported |
-| `b5q` | Galaxy Z Flip5 | ❌ Not supported |
+| `b5q` | Galaxy Z Flip5 | ✅ Supported |
 
 Global and international variants using the same device codename are supported when firmware and partition layouts match.
 
@@ -79,7 +79,6 @@ GoRhanHee_Kernel-kalama-<model>-fastboot.zip
 - Flash only to the matching device and firmware family.
 - Keep the four images together; `vendor_dlkm.img` and `system_dlkm.img` are matched to the selected device.
 - Keep stock images available for recovery.
-- The Flip5 (`b5q`) build is not currently supported.
 
 ### Fastboot Installation
 

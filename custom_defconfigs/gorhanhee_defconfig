@@ -101,7 +101,7 @@ CONFIG_USB_CONFIGFS_F_UAC1=y
 CONFIG_TMPFS_POSIX_ACL=y
 CONFIG_TMPFS_XATTR=y
 
-#b5q camara fix
+#b5q camera fix
 CONFIG_I2C_QCOM_CCI=y
 
 # Clang22 boot compatibility

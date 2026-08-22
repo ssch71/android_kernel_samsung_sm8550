@@ -22,8 +22,6 @@
 
 Global and international variants using the same device codename are supported when firmware and partition layouts match.
 
-The build script contains a `b5q` profile for development, but Galaxy Z Flip5 is currently excluded from supported devices.
-
 ## ✨ Features
 
 - KernelSU-Next is integrated for kernel-level root management.
@@ -53,6 +51,7 @@ Supported build targets:
 ./build.sh dm2q
 ./build.sh dm3q
 ./build.sh q5q
+./build.sh d5q
 ```
 
 
